@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	border: 1px solid #000;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+.wrapper_chitiet{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+.hinhanh_sanhpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin: 0 10px;
+}
+input.themgiohang{
+	border: none;
+	background: brown;
+	color: #fff;
+	padding: 12px;
+	font-size: 15px;
+	cursor: pointer;
+}
+i.fa.fa-plus.fa-style {
+	font-size: 20px;
+	color: red;
+}
+i.fa.fa-minus.fa-style {
+	font-size: 20px;
+	color: blue;
+}
+i.fa.fa-minus.fa-style:hover{
+	color: brown;
+}
+i.fa.fa-plus.fa-style:hover{
+	color: blue;
+}
+i.fa.fa-trash-o.fa-delete{
+	color: #0000FF;
+	font-size: 25px;
+}
+i.fa.fa-trash-o.fa-delete:hover{
+	color: 	#FF0000;
+}
+
+.header{
+	border: 1px solid #000;
+	height: 400px;
+	width: 100%;	
+	background-image:url(../../image/Banner.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+
+}
+.menu{
+	border: 1px solid #000;
+	height: 50px;
+	width: 100%;
+    background: #008B8B;
+}
+ul.list_menu{
+	padding: 0;
+	margin: 0;
+	width: 80%;
+	list-style: none;
+	margin: 0 auto;
+	line-height: 50px;
+}
+ul.list_menu li{
+	float: left;
+	margin-left: 7px;
+    padding: 0 5px;
+	
+}
+ul.list_menu li:hover{
+	background: red;
+}
+ul.list_menu li a{
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+#main{
+	border: 1px solid #000;
+	height: auto;
+	width: 100%;
+
+
+}
+.sidebar{
+	border: 1px solid #00008B;
+	border-radius: 2px;
+	height: 390px;
+	width: 20%;
+	background: #00008B;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+ul.list_sidebar{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	line-height: 50px;
+
+}
+ul.list_sidebar li{
+    padding: 0 7px;
+	display: block;
+}
+ul.list_sidebar li:hover{
+	background: red;
+	cursor: pointer;
+}
+ul.list_sidebar li a{
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+.maincontent{
+	height: auto;
+	width: 78%;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: right;
+}
+ul.product_list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+}
+
+
+ul.product_list li{
+	width: 19%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 3px;
+	float: left;
+	height: 300px;
+	
+}
+
+ul.product_list li a{
+	text-decoration: none;
+}
+ul.product_list li img{
+	width: 100%;
+	height: 192px;
+	overflow: hidden;
+
+}
+p.title_product{
+	text-align: center;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+p.price_product{
+	text-align: center;
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+}
+.clear{
+	clear: both;
+}
+.footer{
+    border: 1px solid #000;
+	height: 150px;
+	width: 100%;
+	background: #00bf5f;
+}
+p.footer_copyright{
+	text-align: center;
+	color: #000;
+	line-height: 150px;
+}
